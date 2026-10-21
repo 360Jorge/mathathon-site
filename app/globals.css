@@ -1,0 +1,14 @@
+:root{--bg:#fafbfc;--ink:#1c2430;--muted:#5d6877;--line:#dde2e9;--accent:#0e6b73;--soft:#e8f2f3;color-scheme:light}
+@media (prefers-color-scheme:dark){:root{--bg:#12171d;--ink:#e8ecf1;--muted:#9aa5b3;--line:#2b3440;--accent:#5cc3cc;--soft:#17353a;color-scheme:dark}}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 system-ui,sans-serif}
+main,header nav{max-width:720px;margin:0 auto;padding:16px 18px}
+header{border-bottom:1px solid var(--line)}
+header nav{display:flex;gap:16px;flex-wrap:wrap}
+a{color:var(--accent)}
+h1{font:600 28px/1.2 Georgia,serif}
+.meta{color:var(--muted);font-size:14px}
+.claim,.exercise,.confusion{border-left:3px solid var(--accent);background:var(--soft);padding:8px 14px;margin:14px 0}
+.badge{font-size:12px;border:1px solid var(--accent);border-radius:4px;padding:0 6px;margin-right:8px}
+.claim-blackbox{border-left-color:#b4691f}
+.sidenote{font-size:14px;color:var(--muted);border-left:2px solid var(--line);padding-left:12px;margin:12px 0}
+table{border-collapse:collapse;width:100%}td,th{border-bottom:1px solid var(--line);padding:6px;text-align:left}

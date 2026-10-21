@@ -1,0 +1,1 @@
+Saved AI conversations used in this project. Name files YYYY-MM-DD-tool-topic.md, and note at the top which tool and model was used and how the output was checked.

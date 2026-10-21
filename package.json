@@ -1,0 +1,15 @@
+{
+  "name": "mathathon-site",
+  "private": true,
+  "scripts": { "dev": "next dev", "build": "next build", "start": "next start" },
+  "dependencies": {
+    "next": "^15.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "next-mdx-remote": "^5.0.0",
+    "gray-matter": "^4.0.3",
+    "remark-math": "^6.0.0",
+    "rehype-katex": "^7.0.0",
+    "katex": "^0.16.11"
+  }
+}

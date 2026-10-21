@@ -1,0 +1,6 @@
+[
+  { "pair": "(8, 14)", "expected": "5", "computed": "", "status": "pending" },
+  { "pair": "(8, 26)", "expected": "8", "computed": "", "status": "pending" },
+  { "pair": "(20, 12)", "expected": "6 (includes the extra lattice N0)", "computed": "", "status": "pending" },
+  { "pair": "(20, 38)", "expected": "see Yang–Yu Theorem 7.9", "computed": "", "status": "pending" }
+]
